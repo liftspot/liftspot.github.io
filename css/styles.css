@@ -1,13 +1,14 @@
 .jumbotron {
 	background-size: cover;
-	background-image: url("../images/liftbg.jpg");
+	background-image: url("../images/header.jpg");
+  background-blend-mode: multiply;
 	background-position: center center;
 	color: #fff;
 	padding: 10%;
 	font-family: 'Raleway', sans-serif;
 	margin-bottom: 0px;
-
 }
+
 .gymjam {
 	padding-left: 10%;
 	padding-bottom: 5%;
@@ -16,7 +17,7 @@
 	font-family: raleway;
 	font-size: 40px;
 	font-weight: bold;
-	color: rgb(255, 105, 105);
+	color: rgba(255,0,0,1);
 	padding-top: 2%;
 	margin-bottom: 40px;
 }
@@ -36,7 +37,7 @@
 	border-radius: 0px;
 	width: 285px;
 	height: 50px;
-	background: rgb(255, 105, 105);
+	background: rgba(255,0,0,1);
 	box-shadow: none;
 	text-shadow: none;
 	color: #fff;
