@@ -1,0 +1,70 @@
+.jumbotron {
+	background-size: cover;
+	background-image: url("../images/liftbg.jpg");
+	background-position: center center;
+	color: #fff;
+	padding: 10%;
+	font-family: 'Raleway', sans-serif;
+	margin-bottom: 0px;
+
+}
+.gymjam {
+	padding-left: 10%;
+	padding-bottom: 5%;
+}
+.headerBrand {
+	font-family: raleway;
+	font-size: 40px;
+	font-weight: bold;
+	color: rgb(255, 105, 105);
+	padding-top: 2%;
+	margin-bottom: 40px;
+}
+.header1 {
+	font-size: 36px;
+	font-weight: bold;
+	margin-bottom: 10px;
+
+}
+.header2 {
+	font-size: 18px;
+	margin-bottom: 40px;
+}
+
+.btn-primary {
+	border-style: none;
+	border-radius: 0px;
+	width: 285px;
+	height: 50px;
+	background: rgb(255, 105, 105);
+	box-shadow: none;
+	text-shadow: none;
+	color: #fff;
+	font-size: 18px;
+	line-height: 32px;
+	font-weight: 600;
+	font-family: Raleway;
+	font-style: normal;
+	text-align: center;
+}
+
+.btn-primary:hover {
+	background: rgba(255,0,0,1);
+}
+
+.workoutspot {
+	background: rgb(228, 173, 34);
+	border-style: none;
+	color: #fff;
+
+}
+.CTA {
+	font-size: 1.4em;
+	font-weight: 500;
+}
+footer {
+	background-color: rgba(42,42,43,1);
+	color: #fff;
+	padding-top: 20px;
+}
+
