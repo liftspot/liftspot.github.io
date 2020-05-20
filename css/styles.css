@@ -69,3 +69,16 @@ footer {
 	padding-top: 20px;
 }
 
+.circle
+    {
+    width:120px;
+    height:120px;
+    border-radius: 50%;
+    font-size:50px;
+    vertical-align: middle;
+    font-family: 'Raleway', sans-serif;
+    color:#FFF;
+    display: table-cell;
+    text-align:center;
+    border: 5px solid white;
+    }
