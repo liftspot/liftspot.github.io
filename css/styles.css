@@ -13,9 +13,12 @@ body {
 	margin-bottom: 0px;
   width: 100%;
   overflow-x: hidden;
+  border-radius: 0;
 }
 
-
+.logo-intro {
+  width: 120px;
+}
 
 .gymjam {
 	padding-left: 10%;
