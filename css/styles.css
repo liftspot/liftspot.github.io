@@ -1,3 +1,7 @@
+body {
+    overflow-x: hidden;
+}
+
 .jumbotron {
 	background-size: cover;
 	background-image: url("../images/header.jpg");
@@ -7,7 +11,11 @@
 	padding: 10%;
 	font-family: 'Raleway', sans-serif;
 	margin-bottom: 0px;
+  width: 100%;
+  overflow-x: hidden;
 }
+
+
 
 .gymjam {
 	padding-left: 10%;
