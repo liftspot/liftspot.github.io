@@ -23,8 +23,9 @@ body {
 }
 
 .logo-intro {
-  width: 15%;
+  width: 25%;
   padding: 2%;
+  min-width: 240px;
   -webkit-filter: drop-shadow(1px 1px 1px #222);
   filter:         drop-shadow(1px 1px 1px #222); 
 }
