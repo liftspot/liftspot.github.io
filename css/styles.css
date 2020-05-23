@@ -3,6 +3,8 @@ body {
   height: 100%;
 }
 
+/* Cover */
+
 .banner {
 	background-size: cover;
 	background-image: url("../images/head_dim2.jpg");
@@ -13,7 +15,6 @@ body {
 	margin-bottom: 0px;
   overflow-x: hidden;
   border-radius: 0;
-
 }
 
 .fill {
@@ -21,21 +22,8 @@ body {
   height: 85vh;
 }
 
-.application {
-  color: #fff;
-  text-decoration: underline;
-    font-weight: bold;
-}
-
-.application:hover {
-  color: #fff;
-  text-decoration: none;
-
-}
-
-
 .logo-intro {
-  width: 240px;
+  width: 15%;
   padding: 2%;
   -webkit-filter: drop-shadow(5px 5px 5px #222);
   filter:         drop-shadow(5px 5px 5px #222); 
@@ -99,17 +87,32 @@ body {
   border-color: #d32f2f !important; 
 }
 
-/*<!-- 	background: rgb(228, 173, 34); -->*/
+.CTA {
+	font-size: 1.4em;
+	font-weight: 500;
+}
+
+
+/* How it Works */
+
+.application {
+  color: #fff;
+  text-decoration: underline;
+    font-weight: bold;
+}
+
+.application:hover {
+  color: #fff;
+  text-decoration: none;
+
+}
 .workoutspot {
   background: #01579b;
 	border-style: none;
 	color: #fff;
 
 }
-.CTA {
-	font-size: 1.4em;
-	font-weight: 500;
-}
+
 footer {
 	background-color: rgba(42,42,43,1);
 	color: #fff;
@@ -129,6 +132,9 @@ footer {
     text-align:center;
     border: 5px solid white;
     }
+
+/* Mail Chimp */ 
+
 #mc_embed_signup{
   background:#fff; 
   clear:left; 
