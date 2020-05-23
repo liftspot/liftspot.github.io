@@ -30,14 +30,6 @@ body {
   filter:         drop-shadow(1px 1px 1px #222); 
 }
 
-.mt-6, .my-6 {
-    margin-top: 3.5rem !important;
-}
-
-.pt-6, .py-6 {
-    margin-top: 3.5rem !important;
-}
-
 .headerBrand {
 	font-family: raleway;
 	font-size: 40px;
@@ -133,6 +125,17 @@ footer {
     text-align:center;
     border: 5px solid white;
     }
+
+/* Other */
+
+.mt-6, .my-6 {
+    margin-top: 3.5rem !important;
+}
+
+.pt-6, .py-6 {
+    margin-top: 3.5rem !important;
+}
+
 
 /* Mail Chimp */ 
 
