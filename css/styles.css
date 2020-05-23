@@ -25,8 +25,8 @@ body {
 .logo-intro {
   width: 15%;
   padding: 2%;
-  -webkit-filter: drop-shadow(5px 5px 5px #222);
-  filter:         drop-shadow(5px 5px 5px #222); 
+  -webkit-filter: drop-shadow(1px 1px 1px #222);
+  filter:         drop-shadow(1px 1px 1px #222); 
 }
 
 .mt-6, .my-6 {
