@@ -4,26 +4,36 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="../images/favicon.ico" type="image/x-icon" />
     <title>Lift Spot</title>
     <link href="css/bootstrap-4.4.1.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-167321644-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-167321644-1');
+    </script>
   </head>
   <body>
-    <header>
-      <div class="jumbotron">
-        <div class="container">
-          <div class="row justify-content-end">
-            <div class="col-6 gymjam ">
-              <h1 class="headerBrand pt-6 pl-6">Lift Spot</h1>
-              <h2 class="header1">Your new post-workout side hustle</h2>
-              <p class="header2">Make money by renting out your gym to locals in your neighborhood.</p>
-              <p class=""><a class="btn btn-primary btn-lg" href="https:/forms.gle/rVkdVm3esXhY6eHP7" role="button">BECOME A HOST</a></p>
-            </div>
-          </div>
-        </div>
+    <a name="top"></a>
+    <div class="container-fluid banner fill">
+      <div class="fixed-top">
+        <a href="#top"><img src="../images/logo_name_only.png" class="logo-intro"></a>
       </div>
-    </header>
+      <div class="row justify-content-center align-items-center h-100">
+        <div class="col-xs-12 col-sm-8 col-md-8 col-lg-6 col-xl-4 offset-md-4">
+              <h2 class="header1">Your new post-workout side hustle</h2>
+              <p class="header2">Earn money by sharing your home gym with locals in your area.</p>
+              <a class="btn btn-primary btn-lg" href="https://forms.gle/rVkdVm3esXhY6eHP7" role="button">BECOME A HOST</a>
+            </div>
+          
+      </div>
+    </div>
+
     <section class="workoutspot p-5">
       <div class="container">
         <div class="row">
@@ -37,7 +47,7 @@
           <div class="col-lg-4 col-md-6 col-sm-12 text-center py-3">
             <img class="" style="width: 100px; height: 100px;" src="images/circle1.svg" data-holder-rendered="true">
             <h4 class="p-2">Tell us about your gym</h3>
-            <p>Fill out this <a href="https:/forms.gle/rVkdVm3esXhY6eHP7">brief survey </a> to tell us about your home gym. We will review your answers and reach out if your gym is a good fit.</p>
+            <p><a class="application" href="https://forms.gle/rVkdVm3esXhY6eHP7">Submit an application</a> to become a host. We will review your answers and reach out if your gym is a good fit.</p>
           </div>
           <div class="col-lg-4 col-md-6 col-sm-12 text-center py-3">
             <img class="" style="width: 100px; height: 100px;" src="images/circle2.svg" data-holder-rendered="true">
@@ -50,34 +60,32 @@
 
             <h4 class="p-2">They work out, you get $$</h3>
             <p>
-              Earn money for every completed session. Charge by the hour. Set your own price.</p>
+              Set your own price. Charge by the hour. Earn money for every completed session.</p>
           </div>
         </div>
       </div>
     </section>
       <div class="">
-        <div class="container">
+        <div class="container p-5">
           <div class="row">
-            <div class="text-center col-md-8 col-12 mx-auto p-4">
-              <p class="pt-3 CTA"><strong>Ready to share your gym?</strong><br>
-                <a class="btn btn-primary btn-lg btn-success" href="https:/forms.gle/rVkdVm3esXhY6eHP7" title="Become a host.">BECOME A HOST</a>
-              </p>
+            <div class="text-center col-md-8 col-12 mx-auto ">
+              <p class="CTA"><strong>Ready to share your gym?</strong><br></p>
+                <a class="btn btn-primary btn-lg btn-success" href="https://forms.gle/rVkdVm3esXhY6eHP7" title="Become a host.">BECOME A HOST</a>
             </div>
           </div>
-          <div class="row">
-            <div class="text-center col-md-8 col-12 mx-auto p-4">
-              <p class="lead pt-3 CTA"><strong>Want access to a home gym?</strong>
+          <div class="row pt-4">
+            <div class="text-center col-md-8 col-12 mx-auto p-2">
+              <p class="lead CTA"><strong>Want access to a home gym?</strong>
               </p>
               <!-- Button trigger modal -->
                 <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#exampleModalCenter">
-                  Sign Up
+                  Join Waitlist
                 </button>
             </div>
           </div>
-          <div class="row">
+          <div class="row pt-4">
             <div class="text-center col-md-8 col-12 mx-auto">
-              <p class="lead">Questions?
-                Shoot us an e-mail - info@liftspot.co</p>
+              <p class="lead"><strong>Questions?</strong> info@liftspot.co</p>
             </div>
           </div>
         </div>
@@ -87,7 +95,7 @@
       <div class="container">
         <div class="row">
           <div class="col-12">
-            <p>© Copyright 2020 Lift Spot, LLC</p>
+            <p>© Copyright 2020 | Lift Spot, LLC | <a href="privacy.html">Privacy Policy</a> | <a href="assets/Terms.pdf">Terms and Conditions</a></p>
           </div>
         </div>
       </div>
@@ -115,7 +123,7 @@
   </div>
   <br>
       <div class="modal-footer">
-        <button type="submit" class="btn btn-primary" id="mc-embedded-subscribe">Join Waitlist</button>
+        <button type="submit" class="btn btn-primary" id="mc-embedded-subscribe">JOIN WAITLIST</button>
       </div>
   </form>
     </div>
